@@ -1,0 +1,42 @@
+name: s_booking_public
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  dartz: ^0.10.1
+  get_storage: ^2.0.3
+  pinput: ^2.2.11
+  pull_to_refresh: ^2.0.0
+  flutter_svg:
+  dio: ^4.0.6
+  double_back_to_close: ^2.0.0
+  loading_overlay: ^0.3.0
+  google_maps_flutter: ^2.1.8
+  flutter_local_notifications: ^9.5.3+1
+  titled_navigation_bar: 5.0.0-nullsafety.0
+  fluttericon: ^2.0.0
+  country_code_picker: ^2.0.2
+  flutter_countdown_timer: ^4.1.0
+  flutter_holo_date_picker: ^1.0.3
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.9.3
+  table_calendar: ^3.0.6
+  flutter_widget_from_html: ^0.8.5
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
